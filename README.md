@@ -21,9 +21,13 @@ Before running the application, make sure you have the following software instal
 
 2. Run this api
 
-````docker
-docker-compose up -d
+   ````docker
+   docker-compose up
+   ```
 
-3. Test the app in the web browser
-  ```http://localhost:8080
-````
+   ````
+
+3. Access the api documentation in webbrowser
+   ```url
+   http://localhost:8080/swagger-ui/index.html
+   ```
