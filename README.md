@@ -14,7 +14,7 @@ Before running the application, make sure you have the following software instal
 1. Clone this repository to your local machine:
 
    ```sh
-   git clone https://github.com/Hecroesmo/arrendaki.git
+   git clone https://github.com/Hecroesmo/arrendaki-api.git
    cd arrendaki
 
    ```
