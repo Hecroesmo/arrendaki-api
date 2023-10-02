@@ -1,4 +1,9 @@
 FROM eclipse-temurin:17-jdk-jammy as base
+
+# Install Maven
+RUN apt-get update && \
+  apt-get install -y maven
+
 WORKDIR /app
 COPY .mvn/ .mvn
 COPY mvnw pom.xml ./
