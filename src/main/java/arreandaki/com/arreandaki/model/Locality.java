@@ -19,6 +19,8 @@ import lombok.ToString;
 @ToString
 @Entity
 public class Locality implements Serializable {
+  private static final long serialVersionUID = 1L;
+
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
   @Column(name = "pk_locality")
